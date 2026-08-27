@@ -498,7 +498,7 @@ This project is distributed under the license included in the `LICENSE` file.
 
 # Author
 
-**Exercise Counter**
+**Marcus**
 
 A computer vision-based fitness application developed using Python, OpenCV, MediaPipe, and Tkinter.
 
