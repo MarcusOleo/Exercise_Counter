@@ -66,7 +66,7 @@ class ExerciseTracker:
         # 3. PUSH-UPS
         elif self.current_exercise == "push_up":
             shldr = [landmarks[self.mp_pose.PoseLandmark.RIGHT_SHOULDER.value].x, landmarks[self.mp_pose.PoseLandmark.RIGHT_SHOULDER.value].y]
-            elbw  = [landmarks[self.mp_pose.PoseLandmark.RIGHT_ELBOW.value].value, landmarks[self.mp_pose.PoseLandmark.RIGHT_ELBOW.value].y]
+            elbw  = [landmarks[self.mp_pose.PoseLandmark.RIGHT_ELBOW.value].x, landmarks[self.mp_pose.PoseLandmark.RIGHT_ELBOW.value].y]
             wrst  = [landmarks[self.mp_pose.PoseLandmark.RIGHT_WRIST.value].x, landmarks[self.mp_pose.PoseLandmark.RIGHT_WRIST.value].y]
             angle = self._calculate_angle(shldr, elbw, wrst)
             
