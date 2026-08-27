@@ -10,3 +10,9 @@ This is a python based program used to count the reps for specific exercises - B
 - Timer : keeps track of the time from start time to pause time.
 - Reset Button : allows you to reset all parameters and take the system back to default mode.
 
+# Tech Stack
+- Language : python
+- GUI : Tkinter
+- Hosting :
+- Processing : CV and Mediapipe
+
