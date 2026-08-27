@@ -16,3 +16,10 @@ This is a python based program used to count the reps for specific exercises - B
 - Hosting :
 - Processing : CV and Mediapipe
 
+## Quick Start
+# Prerequisites
+
+# Installations
+
+#
+
